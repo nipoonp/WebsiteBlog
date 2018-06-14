@@ -11,7 +11,7 @@ namespace SimpleBog.Controllers
         // GET: Posts
         public ActionResult Index()
         {
-            return Content("Hello World!");
+            return View();
         }
     }
 }
